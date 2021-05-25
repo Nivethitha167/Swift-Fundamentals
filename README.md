@@ -1,1 +1,2 @@
-# Swift---Fundamentals
+# Swift-Fundamentals
+Learning Fundamentals of Swift.
