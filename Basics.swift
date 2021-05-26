@@ -115,6 +115,9 @@ print(type(of: tup)) // gives data types used
 print(tup.0) // accessed using . operator - first values is at 0 th pos
 print(tup.1)
 
+tup.0 = "abc"
+print(tup.0) // so tuples can be changed - mutable
+
 var (min,max) = (0, 100) // tuple another way of declaration if it is not given single name
 print("Min is \(min), Max is \(max)")
 
