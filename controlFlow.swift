@@ -58,3 +58,19 @@ default: print("graph")
 
 // Early exit - guard statement
 // similar to if - if executes if condition true - guard executes if condition false
+var c = 2
+var d = 10
+
+while c <= d{
+    guard c != 8 else{
+        print("value is 8")
+        break // must use return, break, continue or throw to exit guard
+    }
+    c+=2
+}
+
+//--------------- #available - to check availability of OS--------------
+if #available(macOS 10.15, *)
+{
+    print("version 10.15")
+}
