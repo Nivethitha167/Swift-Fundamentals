@@ -51,3 +51,13 @@ for (i,v) in arr1.enumerated()
     print(i,terminator: " ")
     print(v)
 }
+
+//--------operations-------------
+arr = [ 5, 2, 4, 8]
+arr1 = [ 8, 4, 1, 3]
+arr.union(arr1)
+print(arr)
+print(arr1)
+
+arr.intersection(arr1)
+arr.subtracting(arr1)
