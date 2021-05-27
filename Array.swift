@@ -12,6 +12,8 @@ print(type(of: arr1)) // assigns Array<Int>
 var arr5 = [Int] (repeating: 5, count: 3)
 print(arr5)
 
+var arr6 = Array<String>()
+
 var arr2 = Array(repeating: 0, count: 5) // sets initial value with range
 print(arr2)
 
