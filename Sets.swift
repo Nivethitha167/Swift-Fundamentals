@@ -61,3 +61,11 @@ print(arr1)
 
 arr.intersection(arr1)
 arr.subtracting(arr1)
+
+arr = [ 1, 2, 3, 4]
+arr1 = [ 3, 2]
+
+arr == arr1
+arr1.isSubset(of: arr)
+arr.isSuperset(of: arr1)
+arr.isDisjoint(with: arr1)
