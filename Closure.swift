@@ -39,3 +39,8 @@ func display(a: Int, clo: (Int) -> Int) -> Int
 }
 var arr6: Int = display(a: 10) { (num) in return (num * num) }
 print(arr6)
+
+//---------------------------------------------------
+var a = 10
+var b = {num in return num + 10}
+print(b(a))
