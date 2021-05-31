@@ -18,7 +18,7 @@ print(dir.rawValue)
 print("using char")
 enum direction1: Character{
     case forward = "1"
-    case backward = "3" //we have define values are cases if not error, because the value which assigns according previous case or default only work for integer or string
+    case backward = "3" //we have to define values for cases, if not error, because the value which assigns according previous case or default only work for integer or string
     case left = "2"
     case right = "4"
 }// user defined type
