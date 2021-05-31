@@ -73,3 +73,17 @@ enum operation: CaseIterable // using caseiterable for associated values
 }
 print(type(of: operation.sqaure))
 print(operation.allCases.count)
+
+var e = operation.square(5)
+func show(a: operation) -> Void{
+    switch e
+    {
+    case let .square(val):
+        print(val * val)
+    case let .add(val1, val2):
+        print(val1 + val2)
+        
+    }
+}
+show(a: e)
+
