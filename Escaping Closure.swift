@@ -1,5 +1,5 @@
 //--------------escaping closure----------------
-// def - passed to a function as a parameter and called after the return statement - which lives outside the function - maily used for storage purpose which is needed in future ao it is available in memory even after the function return - In order to allow a closure to escape function body we need to add @escaping keyword before the parameter type to indicate that it escaping closure.
+// def - passed to a function as a parameter and called after the return statement - which lives outside the function - mainly used for storage purpose which is needed in future ao it is available in memory even after the function return - In order to allow a closure to escape function body we need to add @escaping keyword before the parameter type to indicate that it escaping closure.
 // basically in swift closure are non escaping one in functions
 func calculateSum(arr: Array<Int>, closure: (Int) -> Void){
     var sum = 0
