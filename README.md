@@ -1,2 +1,4 @@
 # Swift-Fundamentals
-Learning Fundamentals of Swift.
+This repository contains my tryouts for the topics in Swift Programming Language.
+
+For Documentation - Refer 
